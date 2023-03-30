@@ -162,3 +162,12 @@ document.querySelector("#fived").addEventListener("click", function () {
     document.getElementById("nowtime").innerHTML = nowtimenum;
     clearInterval(timer);
 });
+//Final grade 
+document.querySelector("#sub").addEventListener("click", function () {
+    clearInterval(timer);
+    document.getElementById("gradepage").style.display = "none";
+    document.getElementById("highscorepage").style.display = "block";
+    document.getElementById("res").innerHTML +=
+      document.getElementById("name").value + " - " + currentgrade + "<br/>";
+});
+
