@@ -1,7 +1,6 @@
 header {
-    padding-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .title p {
@@ -9,8 +8,7 @@ header {
     text-align: center;
     line-height: 50px;
     font-size: 16px;
-    color: white;
-    background-color: #ded8e3;
+    color: rgb(189, 32, 200);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -26,11 +24,12 @@ main {
 }
   
 .quiz {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .quiz p {
-    line-height: 30px;
-    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -43,6 +42,7 @@ main {
     cursor: pointer;
 }
 .choice p {
+    text-align: center;
     line-height: 40px;
     color: white;
 }
@@ -58,12 +58,14 @@ main {
 }
 
 .startbtn {
+    
     background-color: rgb(22, 42, 110);
-    margin: 10px;
+    margin: auto;
     width: 160px;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
+    display:block
 }
 .startbtn p {
     line-height: 40px;
@@ -76,6 +78,7 @@ main {
 }
 
 button {
+    text-align: center;
     background-color: rgb(6, 120, 35);
     color: white;
     border-radius: 10px;
@@ -87,6 +90,7 @@ button {
     padding: 10px 0;
 }
 .text p {
+    text-align: center;
     line-height: 25px;
 }
 .text input {
