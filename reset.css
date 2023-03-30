@@ -2,7 +2,7 @@
 .quiz-container {
     margin: auto;
     width: 50%;
-    border: 1px solid #ccc;
+    border: 1px solid #b837ba;
     padding: 10px;
   }
   
@@ -18,7 +18,7 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
-  
+
   /* Quiz Options */
   .quiz-options {
     display: flex;
