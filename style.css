@@ -3,17 +3,46 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
 .title p {
     width: 150px;
     text-align: center;
     line-height: 50px;
     font-size: 16px;
     color: white;
-    background-color: #8a2be2;
+    background-color: #ded8e3;
     border-radius: 10px;
     cursor: pointer;
 }
+
 .time p {
     line-height: 50px;
     font-size: 16px;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+  
+.quiz {
+    padding: 10px 0;
+}
+.quiz p {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.choice {
+    background-color: rgb(52, 33, 158);
+    margin: 10px;
+    width: 200px;
+    text-indent: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.choice p {
+    line-height: 40px;
+    color: white;
 }
