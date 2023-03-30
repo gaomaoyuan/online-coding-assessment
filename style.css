@@ -82,3 +82,17 @@ button {
     padding: 8px 15px;
     border: none;
 }
+
+.text {
+    padding: 10px 0;
+}
+.text p {
+    line-height: 25px;
+}
+.text input {
+    width: 120px;
+    height: 30px;
+    border: 1px solid cornflowerblue;
+    outline: none;
+    text-indent: 10px;
+}
