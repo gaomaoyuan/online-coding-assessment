@@ -2,19 +2,22 @@
 var currentgrade;
 currentgrade = 0;
 var nowtimenum;
-nowtimenum = 60;
+nowtimenum = 75;
 var timer;
 
+//View Score History
 document.querySelector("#title").addEventListener("click", function () {
     document.getElementById("start").style.display = "none";
     document.getElementById("highscorepage").style.display = "block";
 });
 
+//Start Button
 document.querySelector("#btnstart").addEventListener("click", function () {
     currentgrade = 0;
-    nowtimenum = 60;
-});
+    nowtimenum = 75;
 
+
+//Set up a timer
 timer = setInterval(function () {
     nowtimenum--;
     if (nowtimenum <= 0) {
@@ -40,8 +43,9 @@ timer = setInterval(function () {
   document.getElementById("title").style.display = "none";
   document.getElementById("start").style.display = "none";
   document.getElementById("one").style.display = "block";
-
-  function clickchoicebtn(
+});
+// Choosing the question to next one
+function clickchoicebtn(
     backgroundcolor,
     answertype,
     spechoice,
