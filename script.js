@@ -62,6 +62,7 @@ timer = setInterval(function () {
     }
 }
 
+// Question 1
   document.querySelector("#onea").addEventListener("click", function () {
     clickchoicebtn("red", "Wrong", "onea", "answer1", "one", "two");
 });
@@ -76,4 +77,38 @@ document.querySelector("#onec").addEventListener("click", function () {
 
 document.querySelector("#oned").addEventListener("click", function () {
     clickchoicebtn("red", "Wrong", "oned", "answer1", "one", "two");
+});
+
+// Question 2
+document.querySelector("#twoa").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "twoa", "answer2", "two", "three");
+});
+  
+document.querySelector("#twob").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "twob", "answer2", "two", "three");
+});
+  
+document.querySelector("#twoc").addEventListener("click", function () {
+    clickchoicebtn("green", "Correct", "twoc", "answer2", "two", "three");
+});
+ 
+document.querySelector("#twod").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "twod", "answer2", "two", "three");
+});
+
+//Question 3
+document.querySelector("#threea").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "threea", "answer3", "three", "four");
+});
+
+document.querySelector("#threeb").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "threeb", "answer3", "three", "four");
+});
+
+document.querySelector("#threec").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "threec", "answer3", "three", "four");
+});
+
+document.querySelector("#threed").addEventListener("click", function () {
+    clickchoicebtn("green", "Correct", "threed", "answer3", "three", "four");
 });
