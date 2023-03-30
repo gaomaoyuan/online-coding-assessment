@@ -13,7 +13,7 @@ document.querySelector("#title").addEventListener("click", function () {
 document.querySelector("#btnstart").addEventListener("click", function () {
     currentgrade = 0;
     nowtimenum = 60;
-})
+});
 
 timer = setInterval(function () {
     nowtimenum--;
@@ -40,3 +40,24 @@ timer = setInterval(function () {
   document.getElementById("title").style.display = "none";
   document.getElementById("start").style.display = "none";
   document.getElementById("one").style.display = "block";
+
+  function clickchoicebtn(
+    backgroundcolor,
+    answertype,
+    spechoice,
+    answerArea,
+    currentpage,
+    nextpage
+  ) {
+    document.getElementById(spechoice).style.backgroundColor = backgroundcolor;
+    document.getElementById(answerArea).innerHTML = answertype;
+    setTimeout(function () {
+      document.getElementById(currentpage).style.display = "none";
+      document.getElementById(nextpage).style.display = "block";
+    }, 1000);
+    if (answertype == "Wrong") {
+      nowtimenum -= 8;
+    } else {
+      currentgrade += 20;
+    }
+  }
