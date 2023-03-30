@@ -1,16 +1,16 @@
 # Online Quiz 
 
-## This online code quiz takes a timed quiz and scored score.
+ This online code quiz takes a timed quiz and scored score.
 
-## Click the bottom, timer start and present a question.
+ Click the bottom, timer start and present a question.
 
-## When answered, will show the next question with total 5 questions.
+ When answered, will show the next question with total 5 questions.
 
-## Each time answered a question incorrect, time will subtract 10 seconds.
+ Each time answered a question incorrect, time will subtract 10 seconds.
 
-## When timer set to 0 or answer all five question, quiz will end and show the score. 
+ When timer set to 0 or answer all five question, quiz will end and show the score. 
 
-## score will be stored in " View Highscores " and can be deleted. 
+ score will be stored in " View Highscores " and can be deleted. 
 
 ## url of the repository 
 
