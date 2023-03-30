@@ -178,3 +178,8 @@ document.querySelector("#goback").addEventListener("click", function () {
     document.getElementById("start").style.display = "block";
     document.getElementById("highscorepage").style.display = "none";
 });
+
+document.querySelector("#clearrecords").addEventListener("click", function () {
+    console.log("asdsf");
+    document.getElementById("res").innerHTML = "";
+});
