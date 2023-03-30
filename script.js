@@ -69,3 +69,7 @@ timer = setInterval(function () {
 document.querySelector("#oneb").addEventListener("click", function () {
     clickchoicebtn("red", "Wrong", "oneb", "answer1", "one", "two");
 });
+
+document.querySelector("#onec").addEventListener("click", function () {
+    clickchoicebtn("green", "Correct", "onec", "answer1", "one", "two");
+});
