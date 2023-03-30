@@ -46,3 +46,13 @@ main {
     line-height: 40px;
     color: white;
 }
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#gradepage,
+#highscorepage {
+  display: none;
+}
