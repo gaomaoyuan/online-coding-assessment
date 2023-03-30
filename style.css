@@ -69,3 +69,8 @@ main {
     line-height: 40px;
     color: white;
 }
+
+.answer {
+    border-top: 1px solid #999;
+    padding-top: 10px;
+}
