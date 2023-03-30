@@ -112,3 +112,53 @@ document.querySelector("#threec").addEventListener("click", function () {
 document.querySelector("#threed").addEventListener("click", function () {
     clickchoicebtn("green", "Correct", "threed", "answer3", "three", "four");
 });
+
+//Question 4
+document.querySelector("#foura").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "foura", "answer4", "four", "five");
+});
+  
+document.querySelector("#fourb").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "fourb", "answer4", "four", "five");
+});
+
+document.querySelector("#fourc").addEventListener("click", function () {
+    clickchoicebtn("green", "Correct", "fourc", "answer4", "four", "five");
+});
+
+document.querySelector("#fourd").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "fourd", "answer4", "four", "five");
+});
+
+//Question 5
+document.querySelector("#fivea").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "fivea", "answer5", "five", "gradepage");
+    document.getElementById("scorenum").innerHTML = currentgrade;
+    nowtimenum = 0;
+    document.getElementById("nowtime").innerHTML = nowtimenum;
+    clearInterval(timer);
+});
+
+document.querySelector("#fiveb").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "fiveb", "answer5", "five", "gradepage");
+    document.getElementById("scorenum").innerHTML = currentgrade;
+    nowtimenum = 0;
+    document.getElementById("nowtime").innerHTML = nowtimenum;
+    clearInterval(timer);
+});
+
+document.querySelector("#fivec").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "fivec", "answer5", "five", "gradepage");
+    document.getElementById("scorenum").innerHTML = currentgrade;
+    nowtimenum = 0;
+    document.getElementById("nowtime").innerHTML = nowtimenum;
+    clearInterval(timer);
+});
+
+document.querySelector("#fived").addEventListener("click", function () {
+    clickchoicebtn("green", "Correct", "fived", "answer5", "five", "gradepage");
+    document.getElementById("scorenum").innerHTML = currentgrade;
+    nowtimenum = 0;
+    document.getElementById("nowtime").innerHTML = nowtimenum;
+    clearInterval(timer);
+});
