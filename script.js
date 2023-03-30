@@ -162,6 +162,7 @@ document.querySelector("#fived").addEventListener("click", function () {
     document.getElementById("nowtime").innerHTML = nowtimenum;
     clearInterval(timer);
 });
+
 //Final grade 
 document.querySelector("#sub").addEventListener("click", function () {
     clearInterval(timer);
@@ -171,3 +172,9 @@ document.querySelector("#sub").addEventListener("click", function () {
       document.getElementById("name").value + " - " + currentgrade + "<br/>";
 });
 
+//High score page
+document.querySelector("#goback").addEventListener("click", function () {
+    document.getElementById("title").style.display = "block";
+    document.getElementById("start").style.display = "block";
+    document.getElementById("highscorepage").style.display = "none";
+});
