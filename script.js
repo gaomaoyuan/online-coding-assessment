@@ -73,3 +73,7 @@ document.querySelector("#oneb").addEventListener("click", function () {
 document.querySelector("#onec").addEventListener("click", function () {
     clickchoicebtn("green", "Correct", "onec", "answer1", "one", "two");
 });
+
+document.querySelector("#oned").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "oned", "answer1", "one", "two");
+});
