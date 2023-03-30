@@ -96,3 +96,19 @@ button {
     outline: none;
     text-indent: 10px;
 }
+
+#res {
+    background-color: #999;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.HighScoreDisplay {
+    display: flex;
+    flex-wrap: wrap;
+}
+#sub,
+#goback,
+#clearrecords {
+    cursor: pointer;
+}
