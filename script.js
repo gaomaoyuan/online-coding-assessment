@@ -48,7 +48,7 @@ timer = setInterval(function () {
     answerArea,
     currentpage,
     nextpage
-  ) {
+    ) {
     document.getElementById(spechoice).style.backgroundColor = backgroundcolor;
     document.getElementById(answerArea).innerHTML = answertype;
     setTimeout(function () {
@@ -60,4 +60,8 @@ timer = setInterval(function () {
     } else {
       currentgrade += 20;
     }
-  }
+}
+
+  document.querySelector("#onea").addEventListener("click", function () {
+    clickchoicebtn("red", "Wrong", "onea", "answer1", "one", "two");
+});
