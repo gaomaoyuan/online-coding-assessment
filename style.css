@@ -74,3 +74,11 @@ main {
     border-top: 1px solid #999;
     padding-top: 10px;
 }
+
+button {
+    background-color: rgb(6, 120, 35);
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    border: none;
+}
